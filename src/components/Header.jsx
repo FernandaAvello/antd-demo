@@ -8,7 +8,7 @@ const items = [
     key: 'logo',
     label: (
       <img
-        src="https://res.cloudinary.com/djlmqpd2n/image/upload/v1631533101/logo_1x_1_jy6j4v.png"
+        src="public\assets\images\logo.png"
         alt="logo"
         style={{ width: '100px' }}
       />
@@ -33,9 +33,9 @@ const items = [
     )
   },
   {
-    key: 'contact',
+    key: 'appointment',
     label: (
-      <Link to="/contact">Contacto</Link>
+      <Link to="/appointment">Agendamiento</Link>
     )
   },
   {
