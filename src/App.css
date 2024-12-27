@@ -43,10 +43,44 @@
   width: 80%;
   margin: 0 auto;
 }
+.section_homeServices {
+  background-color: #EA4C89;
+  margin-top: 30px;
+  padding: 0 7%;
+}
+.custom-shape-divider-bottom {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 173px;
+}
+
+.custom-shape-divider-bottom .shape-fill {
+  fill: #EA4C89;
+}
 .section_team, .section_services {
   margin: 0 auto;
   width: 70%;
 }
-.section_list_doctors, .section_list_services {
+.section_list_doctors {
 margin-top: 30px;
+}
+.section_homeServices {
+  margin-top: -52px;
+}
+
+.footer {
+  background-color: #EA4C89;
+  color: #fff;
+  padding: 20px 0;
 }
