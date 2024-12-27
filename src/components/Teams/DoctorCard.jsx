@@ -1,5 +1,6 @@
 import React from 'react';
-import { Card, Flex, Tag, Row, Col } from 'antd';
+import PropTypes from 'prop-types';
+import { Card, Tag, Row, Col } from 'antd';
 const { Meta } = Card;
 
 const DoctorCard = ({ name, specialty, description, image }) => (
@@ -22,5 +23,12 @@ const DoctorCard = ({ name, specialty, description, image }) => (
     </div>
   </Card>
 );
+
+DoctorCard.propTypes = {
+  name: PropTypes.string.isRequired,
+  specialty: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
+};
 
 export { DoctorCard };

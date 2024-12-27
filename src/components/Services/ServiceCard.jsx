@@ -1,20 +1,19 @@
 import React from 'react';
 import { Card, Row, Col } from 'antd';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faPregnantWoman, faHospital, faHeart, faChild, faSpa, faBrain, faBaby } from '@fortawesome/free-solid-svg-icons';
+import { faPersonPregnant, faHospital, faHeart, faChild, faSpa, faBrain, faBaby } from '@fortawesome/free-solid-svg-icons';
 const { Meta } = Card;
 
 const iconMap = {
-  // pregnant_woman: faPregnantWoman,
-  // local_hospital: faHospital,
-  // healing: faHealing,
-  // favorite: faHeart,
-  // child_care: faChild,
-  // local_pharmacy: faPharmacy,
-  // spa: faSpa,
-  // psychology: faBrain,
-  // medical_services: faBaby,
-  // local_hospital: faCancer
+  pregnant_woman: faPersonPregnant,
+  local_hospital: faHospital,
+  healing: faHeart,
+  favorite: faHeart,
+  child_care: faChild,
+  local_pharmacy: faHeart,
+  spa: faSpa,
+  psychology: faBrain,
+  medical_services: faBaby,
 };
 
 const ServiceCard = ({ icon, title, description }) => (
